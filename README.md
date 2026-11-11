@@ -165,6 +165,12 @@ The editors run on your computer, so opening one needs local network, which the 
 
 ---
 
+## Claude Desktop Cowork
+
+The [Claude plugins](claude-plugins/README.md) reuse the upstream skills and one shared host MCP. Cowork writes artifacts and reads saved comments in the workspace folder you connect; Claude Desktop starts the MCP, which opens the existing editor on your computer and returns its browser URL. No server needs to be started manually. [Install the host MCP once and generate the skill-only plugin ZIPs](claude-plugins/README.md#install-once-on-the-host).
+
+---
+
 ## Why run it locally
 
 - **Free yourself from the website.** You get the vast majority of `claude.ai/design`'s capabilities without ever leaving your editor — same methodology, same craft standards, same output format.

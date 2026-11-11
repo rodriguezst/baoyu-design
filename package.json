@@ -3,6 +3,8 @@
   "version": "2.13.0",
   "private": true,
   "scripts": {
-    "test": "node --test 'archive/baoyu-design/agents/tests/*.test.mjs'"
+    "test": "node --test 'archive/baoyu-design/agents/tests/*.test.mjs'",
+    "test:claude-plugins": "npm --prefix claude-plugins test",
+    "build:claude-plugins": "npm --prefix claude-plugins run build"
   }
 }

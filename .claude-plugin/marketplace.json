@@ -1,0 +1,125 @@
+{
+  "name": "baoyu-design",
+  "owner": {
+    "name": "Baoyu Design contributors"
+  },
+  "metadata": {
+    "description": "Upstream design skills with a separately installed shared host editor MCP.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "baoyu-slides",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Slides: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-slides",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-canvas",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Canvas: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-design",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-design-system",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Design System: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-design-system",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-dashboard",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Dashboard: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-dashboard",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-motion",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Motion: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-motion",
+        "./skills/motion-director",
+        "./skills/dataviz",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-whiteboard",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Baoyu Whiteboard: upstream skills for editable local artifacts. Install the shared baoyu-editor host MCP separately for Cowork.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/claude-whiteboard",
+        "./claude-plugins/integration-skills/cowork-editor"
+      ]
+    },
+    {
+      "name": "baoyu-dataviz",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "A method for charts and data visualizations in any medium, from HTML and SVG to matplotlib, plotly, d3 and Recharts: which form fits the question, a color formula with a validator, mark specs and interaction rules, so charts read as one system in light and dark themes.",
+      "author": {
+        "name": "Jim Liu 宝玉",
+        "url": "https://github.com/JimLiu"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "skills": [
+        "./skills/dataviz"
+      ]
+    }
+  ]
+}

@@ -31,3 +31,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Check Claude plugins and shared host MCP
+        run: |
+          npm ci --prefix claude-plugins
+          npm run check --prefix claude-plugins
+          npm run test:claude-plugins

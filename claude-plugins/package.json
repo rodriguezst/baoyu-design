@@ -1,0 +1,23 @@
+{
+  "name": "baoyu-claude-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/stdio.mjs",
+    "config": "node scripts/config.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "pack": "node scripts/pack.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2"
+  },
+  "devDependencies": {
+    "fflate": "0.8.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

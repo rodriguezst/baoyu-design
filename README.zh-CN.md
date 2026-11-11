@@ -164,6 +164,12 @@ codex plugin add baoyu-slides@baoyu-design
 
 ---
 
+## Claude Desktop Cowork
+
+[Claude 插件](claude-plugins/README.zh-CN.md)复用上游技能和一份共享宿主机 MCP。Cowork 在授权的共享目录写作品、读取已保存评论；Claude Desktop 启动 MCP，由它打开宿主机现有编辑器并返回浏览器链接，无需用户提前启动服务器。参见[一次配置 MCP、生成纯技能插件 ZIP 的安装说明](claude-plugins/README.zh-CN.md#在宿主机配置一次-mcp)。
+
+---
+
 ## 为什么在本地跑
 
 - **摆脱对网站的依赖。** 不必离开编辑器，就能用上 `claude.ai/design` 绝大部分的功能 —— 同一套方法论、同样的工艺标准、同样的产出格式。
